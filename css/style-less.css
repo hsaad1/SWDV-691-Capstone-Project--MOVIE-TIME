@@ -1,0 +1,43 @@
+.blue-font {
+  color: #007bff;
+}
+.yellow-box {
+  background: #f5fd46;
+}
+.red-box {
+  background: #ff0000 !important;
+}
+.movie-section h2 {
+  text-align: center !important;
+}
+.margin-auto {
+  margin: 0 auto;
+}
+.alertWidth {
+  max-width: 300px;
+  margin: 0 auto;
+}
+.movieImg {
+  margin: 0 auto;
+}
+nav img {
+  max-width: 90px;
+}
+.copyright p {
+  display: inline;
+}
+#sidebar-wrapper .sidebar-heading {
+  padding: 0.875rem 1.25rem;
+}
+#sidebar-wrapper .list-group {
+  width: 15rem;
+}
+#page-content-wrapper {
+  min-width: 100vw;
+}
+#wrapper.toggled #sidebar-wrapper {
+  margin-left: 0;
+}
+.name{
+	color:red;
+}

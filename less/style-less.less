@@ -1,0 +1,83 @@
+@bluecolor: #007bff;
+@yellowcolor: #f5fd46;
+@redcolor: #ff0000;
+@alertWidth: 300px;
+
+.blue-font {
+    color:@bluecolor;
+}
+
+.yellow-box {
+    background: @yellowcolor;
+}
+
+.red-box {
+    background: @redcolor !important;
+}
+
+.movie-section {
+
+    h2 {
+        text-align: center !important
+    }
+}
+.margin-auto {
+    margin: 0 auto;
+}
+.alertWidth {
+    max-width: @alertWidth;
+    .margin-auto();
+}
+
+.movieImg {
+    .margin-auto();
+}
+
+nav {
+    img {
+        max-width: 90px;
+    }
+}
+.copyright {
+    p {
+        display: inline;
+    }
+}
+#sidebar-wrapper {
+    .sidebar-heading {
+        padding: 0.875rem 1.25rem;
+    }
+}
+
+#sidebar-wrapper {
+    .list-group {
+        width: 15rem;
+    }
+}
+
+#page-content-wrapper {
+  min-width: 100vw;
+}
+
+#wrapper.toggled {
+    #sidebar-wrapper {
+        margin-left: 0;
+    }
+}
+
+.starwars{
+    width:100%;
+    height:auto;
+}
+
+.movieContainer {
+    .starwars();
+}
+
+
+@media screen and (max-width: 600px) {
+    .starwars{
+        width:50%;
+        height:50%;
+    }
+}

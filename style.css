@@ -1,0 +1,391 @@
+col-md-offset-1  margin-left: 250px;
+  padding: 0px 20px;
+  text-align: center;
+}
+
+.main h1 {
+  font-family: 'Diplomata SC';
+  font-size: 30px;
+}
+
+.main li {
+  display: inline;
+  font-size: 23px;
+}
+
+footer li {
+  display: inline;
+  padding-left: 3%;
+}
+
+footer a {
+  color: black;
+}
+
+#sidebar-wrapper img {
+max-width: 90px;
+}
+
+/* @media screen and (max-width: 600px)  { */
+/*   .sidenav {padding-top: 15px;} */
+/*   .sidenav a {font-size: 20px;} */
+/*   .sidenav img { */
+/* 	  width:50% !important; */
+/* 	  height:50% !important; */
+/*   } */
+/* } */
+.img1{
+	margin-top: -33px;
+}
+.button{
+    border-radius: 48px !important;
+}
+.searchDiv{
+	margin-left: 23%;
+}
+
+input[type=button]{
+  background-color: red;
+}
+
+footer h2 {
+  font-family: Impact;
+}
+.btnfont{
+	width: 17% !important;
+  border-radius: 59px !important;
+  font-size: 21px !important;
+}
+h2{
+	
+   font-family: impact !important;
+
+}
+h1 {
+  font-size: 40px !important;
+  font-weight: bold;
+}
+.starwars{
+	width:100%;
+	height:auto;
+}
+.homeimg{
+	width: 96px;
+    position: absolute;
+    left: 1223px;
+}
+
+@media screen and (max-width: 769px) {
+ .starwars{
+	width:50%;
+	height:50%;
+}
+
+}
+
+/* @media screen and (max-width: 600px) { */
+/* .homeimg{ */
+/* 	width: 96px; */
+/*     position: absolute; */
+/*     left: 503px; */
+/* } */
+/*  */
+/* } */
+
+
+.imageContainer img{
+   max-width: 70px;
+}
+#movies-searchable .movie section {
+    display: flex !important;
+    flex-wrap: wrap !important;
+}
+
+section .imageContainer {
+    margin: 15px;
+}
+ul li{
+  display: inline;
+      font-size: 23px;
+	      margin: 15px;
+}
+ul{
+	text-align:center;
+}
+.movietime{
+	width:50%;
+       height: auto;
+}
+.centerrow{
+	text-align:center;
+}
+.paragraph{
+	font-size: 20px;
+    font-family: initial;
+    text-align: justify;
+    border: 1px solid;
+	    padding-bottom: 57px !important;
+    padding: 6px
+}
+.blockdiv{
+	    width: 50% !important;
+    margin-left: -118px;
+    margin-top: -17px;
+
+}
+.sidebar img{
+    max-width: 90% !important;
+}
+.Pmar{
+	margin-top:124px;
+	    width: 62%;
+		    margin-left: 72px;
+}
+
+
+.dropdown-content {
+  display: none;
+  
+ 
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  
+  margin-left: 28px !important;
+}
+
+.dropdown-content a:hover {
+  background-color: #black;
+  color: red;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+ font-size: 29px;
+  border: none;
+  outline: none;
+  
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+.sidenav .icon {
+  display: none;
+}
+
+@media screen and (max-width: 769px) {
+  .sidenav a:not(:first-child) {display: none !important;}
+  .sidenav .icon {
+    float: left;
+    display: block !important;
+  }
+}
+
+@media screen and (max-width: 769px) {
+  .sidenav.responsive {position: relative;}
+  .sidenav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .sidenav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+.movbtn{
+	margin-left:60px;
+}
+.alert-warning {
+    color: #c3800d !important;
+    background-color: #f5fd46 !important;
+    border-color: #faebcc;
+}
+.imgalign{
+	margin-top:32px;
+		margin-left: -88px;
+}
+.margtop{
+	margin-top: -50px;
+}
+.imgmar{
+	    margin-left: 92px !important;
+}
+.formmar{
+	margin-left:70px ;
+}
+.conmar{
+	margin-top: 55px;
+        justify-content: center;
+}
+.starimg{
+	height: 816px !important;
+}
+
+
+/*!
+ * Start Bootstrap - Simple Sidebar (https://startbootstrap.com/templates/simple-sidebar)
+ * Copyright 2013-2020 Start Bootstrap
+ * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-simple-sidebar/blob/master/LICENSE)
+ */
+
+ #wrapper {
+    overflow-x: hidden;
+ }
+
+ #sidebar-wrapper {
+     max-height: 100vh;
+     position: fixed;
+     z-index:1;
+     top: 0;
+     left: 0;
+     border-color: red;
+     margin-left: -15rem;
+     -webkit-transition: margin .25s ease-out;
+     -moz-transition: margin .25s ease-out;
+     -o-transition: margin .25s ease-out;
+     transition: margin .25s ease-out;
+     overflow: auto;
+ }
+
+#sidebar-wrapper .sidebar-heading {
+  padding: 0.875rem 1.25rem;
+}
+
+#sidebar-wrapper .list-group {
+  width: 15rem;
+}
+
+#page-content-wrapper {
+  min-width: 100vw;
+}
+
+#wrapper.toggled #sidebar-wrapper {
+  margin-left: 0;
+}
+
+@media (min-width: 769px) {
+  #sidebar-wrapper {
+    margin-left: 0;
+  }
+
+  #page-content-wrapper {
+    min-width: 0;
+    width: 100%;
+  }
+
+  #wrapper.toggled #sidebar-wrapper {
+    margin-left: -15rem;
+  }
+}
+
+nav img{
+    max-width: 90px;
+}
+.movieImg {
+    margin: 0 auto;
+    width: 100%;
+}
+.movieImg1 {
+    margin: 0 auto;
+   
+}
+.alertWidth {
+max-width: 300px;
+margin: 0 auto;
+}
+
+.copyright p {
+display: inline;
+}
+
+@media screen and (min-width: 768px)  {
+    #navbarSupportedContent {
+        display: none !important;
+    }
+
+}
+
+@media screen and (max-width: 768px)  {
+    .top-form input {
+        max-width: 150px !important;
+    }
+}
+.margin-x-auto {
+    margin: 0 auto !important;
+}
+
+.home-Img {
+    max-width: 100px;
+    padding: 20px;
+}
+
+.min-content-height {
+    min-height: 60vh;
+}
+
+.content {
+    display: none;
+    position: relative;
+    min-height: 200px;
+    width: 100%;
+    border: 1px solid lightgrey;
+    padding: 20px;
+}
+
+.content-display {
+    display: block;
+}
+
+.content-display {
+    display: block;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.content div {
+    margin: 10px;
+}
+
+#content-close {
+    cursor: pointer;
+    position: absolute;
+    top: 20px;
+    padding: 10px;
+    border: 1px solid lightgrey;
+    border-radius: 45%;
+    left: 20px;
+}
+
+.disablelink {
+	pointer-events: none;
+    cursor: default;
+    opacity: 0.5;
+    color: black !important;
+    }
+
+
+.parent-guide {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
